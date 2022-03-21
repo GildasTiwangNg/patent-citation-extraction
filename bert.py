@@ -11,7 +11,7 @@ from nltk import word_tokenize
 from pytorch_transformers import (BertConfig, BertForTokenClassification,
                                   BertTokenizer)
 
-
+## just a commentary
 class BertNer(BertForTokenClassification):
 
     def forward(self, input_ids, token_type_ids=None, attention_mask=None, valid_ids=None):
